@@ -1,19 +1,51 @@
-$padding: 6px;
+body {
 
-nav {
-    ul {
-        margin: 0;
-        padding: $padding;
-        list-style: none;
-    }
+    .wrapper {
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 10px;
 
-    li {
-        display: inline-block;
-    }
+        header {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            transform-style: preserve-3d;
+            z-index: -1;
 
-    a {
-        display: block;
-        padding: $padding 12px;
-        text-decoration: none;
+            img {
+
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+
+            div {
+                div {
+                    // div {}
+
+                    div {
+                        ul {
+                            li {
+                                a {
+                                    color: black;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
     }
+}
+
+section {
+    font-size: 2rem;
+    padding: 2rem;
+
 }
