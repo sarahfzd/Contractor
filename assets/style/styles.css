@@ -33,5 +33,13 @@ body .background .top-note .note {
 body .background .sections-category {
   background-color: #ececec;
 }
+body .capabilities-content .reasons {
+  text-align: justify;
+  text-justify: inter-word;
+}
+body .capabilities-content .reasons div {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /*# sourceMappingURL=styles.css.map */
