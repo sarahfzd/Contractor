@@ -15,18 +15,16 @@ body {
             z-index: -1;
 
             img {
-
                 position: absolute;
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
                 z-index: -1;
+                object-position: 50% 50%;
             }
 
             div {
                 div {
-                    // div {}
-
                     div {
                         ul {
                             li {
@@ -42,10 +40,32 @@ body {
             }
         }
     }
-}
 
-section {
-    font-size: 2rem;
-    padding: 2rem;
+    .background {
+        background-color: #ececec;
 
+        .top-note {
+            .note {
+                text-align: justify;
+                text-justify: inter-word;
+            }
+        }
+
+        .sections-category {
+            background-color: #ececec;
+
+            .section02 {
+
+            }
+
+            .section03 {
+
+            }
+
+            .section04 {
+
+            }
+        }
+
+    }
 }

@@ -3,7 +3,6 @@ body .wrapper {
   overflow-x: hidden;
   perspective: 10px;
 }
-
 body .wrapper header {
   position: relative;
   display: flex;
@@ -13,22 +12,26 @@ body .wrapper header {
   transform-style: preserve-3d;
   z-index: -1;
 }
-
 body .wrapper header img {
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: -1;
+  object-position: 50% 50%;
 }
-
 body .wrapper header div div div ul li a {
   color: black;
 }
-
-section {
-  font-size: 2rem;
-  padding: 2rem;
+body .background {
+  background-color: #ececec;
+}
+body .background .top-note .note {
+  text-align: justify;
+  text-justify: inter-word;
+}
+body .background .sections-category {
+  background-color: #ececec;
 }
 
 /*# sourceMappingURL=styles.css.map */
