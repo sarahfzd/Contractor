@@ -41,5 +41,42 @@ body .capabilities-content .reasons div {
   text-align: justify;
   text-justify: inter-word;
 }
+body .about-us-content {
+  background-color: #172e24;
+}
+body .about-us-content .description .video-container {
+  height: 100vh;
+}
+body .about-us-content .description .description-note {
+  height: 100vh;
+  overflow-y: scroll;
+}
+body .bg-light-green {
+  background-color: #ecf3d7;
+}
+body .bg-light-green .project-spotlight-content-top {
+  background-color: #ecf3d7;
+  height: 600px;
+}
+body .bg-light-green .parallax {
+  background-color: #ecf3d7;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../img/bottom.jpg);
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body .bg-light-green .project-spotlight-content-bottom {
+  height: 150px;
+  background-color: #ecf3d7;
+}
+body .bg-light-green .project-spotlight-content-bottom p {
+  margin-left: 5%;
+  font-size: smaller;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -36,7 +36,6 @@ body {
                         }
                     }
                 }
-
             }
         }
     }
@@ -68,4 +67,51 @@ body {
             }
         }
     }
+
+    .about-us-content {
+        background-color: #172e24;
+
+        .description {
+            .video-container {
+                height: 100vh;
+            }
+
+            .description-note {
+                height: 100vh;
+                overflow-y: scroll;
+            }
+        }
+    }
+
+    .bg-light-green {
+        background-color: #ecf3d7;
+
+        .project-spotlight-content-top {
+            background-color: #ecf3d7;
+            height: 600px;
+        }
+
+        .parallax {
+            background-color: #ecf3d7;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            background-image: url(../img/bottom.jpg);
+            height: 800px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .project-spotlight-content-bottom {
+            height: 150px;
+            background-color: #ecf3d7;
+            p{
+                margin-left: 5%;
+                font-size: smaller;
+            }
+        }
+    }
+
 }
