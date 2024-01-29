@@ -78,5 +78,8 @@ body .bg-light-green .project-spotlight-content-bottom p {
   margin-left: 5%;
   font-size: smaller;
 }
+body .footer-content {
+  background-color: #172e24;
+}
 
 /*# sourceMappingURL=styles.css.map */
