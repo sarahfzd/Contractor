@@ -22,7 +22,7 @@ body {
 
         .sections-category {
             background-color: #ececec;
-            height: 2200px;
+            
         }
 
     }
@@ -48,7 +48,7 @@ body {
             }
 
             .description-note {
-                height: 100vh;
+                height: 80vh;
                 overflow-y: scroll;
             }
         }
@@ -68,7 +68,7 @@ body {
             margin-right: auto;
             margin-left: auto;
             background-image: url(../img/bottom.jpg);
-            height: 800px;
+            height: 600px;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
