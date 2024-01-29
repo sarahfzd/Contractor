@@ -1,43 +1,13 @@
 body {
+    overflow-x: hidden;
 
-    .wrapper {
+    .parallax-top {
+        background-image: url("../img/top-bg-img.jpeg");
         height: 100vh;
-        overflow-x: hidden;
-        perspective: 10px;
-
-        header {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            transform-style: preserve-3d;
-            z-index: -1;
-
-            img {
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                z-index: -1;
-                object-position: 50% 50%;
-            }
-
-            div {
-                div {
-                    div {
-                        ul {
-                            li {
-                                a {
-                                    color: black;
-
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .background {
@@ -52,6 +22,7 @@ body {
 
         .sections-category {
             background-color: #ececec;
+            height: 2200px;
         }
 
     }
@@ -88,7 +59,7 @@ body {
 
         .project-spotlight-content-top {
             background-color: #ecf3d7;
-            height: 600px;
+            height: 650px;
         }
 
         .parallax {
@@ -107,14 +78,16 @@ body {
         .project-spotlight-content-bottom {
             height: 150px;
             background-color: #ecf3d7;
-            p{
+
+            p {
                 margin-left: 5%;
                 font-size: smaller;
             }
         }
-        
+
     }
-    .footer-content{
+
+    .footer-content {
         background-color: #172e24;
     }
 
